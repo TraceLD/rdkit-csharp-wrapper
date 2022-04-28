@@ -11,7 +11,7 @@ C# Wrapper for the RDKit C++ cheminformatics library with support for Windows, L
 - Build your project.
 - Hopefully everything works 🙂 (assuming you're running on a supported system).
 
-See the [Examples folder]() for an example project.
+See the [examples folder](https://github.com/TraceLD/TraceLD.RDKit.CSharp/tree/main/examples) for example project(s).
 
 ## Currently supported operating systems
 
