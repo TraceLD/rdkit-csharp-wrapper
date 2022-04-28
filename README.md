@@ -31,7 +31,7 @@ See the [examples folder](https://github.com/TraceLD/TraceLD.RDKit.CSharp/tree/m
 
 ### macOS
 
- - Supports ARM64 (Apple Sillicon) Monterrey.
+ - Supports ARM64 (Apple Silicon) Monterey.
  - I sadly do not own an Intel Mac to be able to provide x64 binaries and test them.
    - I will look into GitHub Actions/Azure Pipelines in the future for this but can't guarantee success.
 
