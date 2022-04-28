@@ -9,7 +9,7 @@ C# Wrapper for the RDKit C++ cheminformatics library with support for Windows, L
 - Create a new .NET project targeting `net6.0`.
 - [Add the package from nuget](https://www.nuget.org/packages/TraceLD.RDKit.CSharp/).
 - Build your project.
-- Hopefully everything works :) (assuming you're running on a supported system).
+- Hopefully everything works 🙂 (assuming you're running on a supported system).
 
 See the [Examples folder]() for an example project.
 
