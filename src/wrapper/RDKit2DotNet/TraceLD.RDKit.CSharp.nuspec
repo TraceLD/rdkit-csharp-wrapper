@@ -9,7 +9,7 @@
     <licenseUrl>https://github.com/TraceLD/TraceLD.RDKit.CSharp/blob/main/LICENSE</licenseUrl>
     <projectUrl>https://github.com/TraceLD/TraceLD.RDKit.CSharp</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>C# Wrapper for the RDKit C++ cheminformatics library with support for Windows, Linux and macOS. </description>
+    <description>C# Wrapper for the RDKit C++ cheminformatics library with support for Windows (x86/x64), Linux (x64) and macOS (arm64 - Apple Silicon). </description>
     <copyright>Copyright © 2019-2022 TraceLD, Kazuya Ujihara</copyright>
     <tags>rdkit, cheminformatics, wrapper, chemistry</tags>
     <dependencies>
