@@ -1,0 +1,1718 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+
+    <ItemGroup Condition="!$(TargetFramework.Contains('netstandard')) And !$(TargetFramework.Contains('netcoreapp')) And !$(TargetFramework.Contains('net5.'))And !$(TargetFramework.Contains('net6.')) And '$(Platform)' == 'x86'">
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_atomic-vc142-mt-x32-1_74.dll">
+            <Link>boost_atomic-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_bzip2-vc142-mt-x32-1_74.dll">
+            <Link>boost_bzip2-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_chrono-vc142-mt-x32-1_74.dll">
+            <Link>boost_chrono-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_container-vc142-mt-x32-1_74.dll">
+            <Link>boost_container-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_context-vc142-mt-x32-1_74.dll">
+            <Link>boost_context-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_contract-vc142-mt-x32-1_74.dll">
+            <Link>boost_contract-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_coroutine-vc142-mt-x32-1_74.dll">
+            <Link>boost_coroutine-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_date_time-vc142-mt-x32-1_74.dll">
+            <Link>boost_date_time-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_fiber-vc142-mt-x32-1_74.dll">
+            <Link>boost_fiber-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_filesystem-vc142-mt-x32-1_74.dll">
+            <Link>boost_filesystem-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_graph-vc142-mt-x32-1_74.dll">
+            <Link>boost_graph-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_iostreams-vc142-mt-x32-1_74.dll">
+            <Link>boost_iostreams-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_locale-vc142-mt-x32-1_74.dll">
+            <Link>boost_locale-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_log-vc142-mt-x32-1_74.dll">
+            <Link>boost_log-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_log_setup-vc142-mt-x32-1_74.dll">
+            <Link>boost_log_setup-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_c99-vc142-mt-x32-1_74.dll">
+            <Link>boost_math_c99-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_c99f-vc142-mt-x32-1_74.dll">
+            <Link>boost_math_c99f-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_c99l-vc142-mt-x32-1_74.dll">
+            <Link>boost_math_c99l-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_tr1-vc142-mt-x32-1_74.dll">
+            <Link>boost_math_tr1-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_tr1f-vc142-mt-x32-1_74.dll">
+            <Link>boost_math_tr1f-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_tr1l-vc142-mt-x32-1_74.dll">
+            <Link>boost_math_tr1l-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_nowide-vc142-mt-x32-1_74.dll">
+            <Link>boost_nowide-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_prg_exec_monitor-vc142-mt-x32-1_74.dll">
+            <Link>boost_prg_exec_monitor-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_program_options-vc142-mt-x32-1_74.dll">
+            <Link>boost_program_options-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_random-vc142-mt-x32-1_74.dll">
+            <Link>boost_random-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_regex-vc142-mt-x32-1_74.dll">
+            <Link>boost_regex-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_serialization-vc142-mt-x32-1_74.dll">
+            <Link>boost_serialization-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_stacktrace_noop-vc142-mt-x32-1_74.dll">
+            <Link>boost_stacktrace_noop-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_stacktrace_windbg-vc142-mt-x32-1_74.dll">
+            <Link>boost_stacktrace_windbg-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_stacktrace_windbg_cached-vc142-mt-x32-1_74.dll">
+            <Link>boost_stacktrace_windbg_cached-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_system-vc142-mt-x32-1_74.dll">
+            <Link>boost_system-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_thread-vc142-mt-x32-1_74.dll">
+            <Link>boost_thread-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_timer-vc142-mt-x32-1_74.dll">
+            <Link>boost_timer-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_type_erasure-vc142-mt-x32-1_74.dll">
+            <Link>boost_type_erasure-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_unit_test_framework-vc142-mt-x32-1_74.dll">
+            <Link>boost_unit_test_framework-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_wave-vc142-mt-x32-1_74.dll">
+            <Link>boost_wave-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_wserialization-vc142-mt-x32-1_74.dll">
+            <Link>boost_wserialization-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_zlib-vc142-mt-x32-1_74.dll">
+            <Link>boost_zlib-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/cairo.dll">
+            <Link>cairo.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/freetype.dll">
+            <Link>freetype.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/libpng16.dll">
+            <Link>libpng16.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/pixman.dll">
+            <Link>pixman.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKFuncs.dll">
+            <Link>RDKFuncs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitAbbreviations.dll">
+            <Link>RDKitAbbreviations.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitAlignment.dll">
+            <Link>RDKitAlignment.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitAvalonLib.dll">
+            <Link>RDKitAvalonLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitavalon_clib.dll">
+            <Link>RDKitavalon_clib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitCatalogs.dll">
+            <Link>RDKitCatalogs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitChemicalFeatures.dll">
+            <Link>RDKitChemicalFeatures.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitChemReactions.dll">
+            <Link>RDKitChemReactions.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitChemTransforms.dll">
+            <Link>RDKitChemTransforms.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitCIPLabeler.dll">
+            <Link>RDKitCIPLabeler.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitcoordgen.dll">
+            <Link>RDKitcoordgen.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDataStructs.dll">
+            <Link>RDKitDataStructs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDepictor.dll">
+            <Link>RDKitDepictor.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDeprotect.dll">
+            <Link>RDKitDeprotect.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDescriptors.dll">
+            <Link>RDKitDescriptors.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDistGeometry.dll">
+            <Link>RDKitDistGeometry.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDistGeomHelpers.dll">
+            <Link>RDKitDistGeomHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitEigenSolvers.dll">
+            <Link>RDKitEigenSolvers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFileParsers.dll">
+            <Link>RDKitFileParsers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFilterCatalog.dll">
+            <Link>RDKitFilterCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFingerprints.dll">
+            <Link>RDKitFingerprints.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFMCS.dll">
+            <Link>RDKitFMCS.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitForceField.dll">
+            <Link>RDKitForceField.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitForceFieldHelpers.dll">
+            <Link>RDKitForceFieldHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFragCatalog.dll">
+            <Link>RDKitFragCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFreeSASALib.dll">
+            <Link>RDKitFreeSASALib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitfreesasa_clib.dll">
+            <Link>RDKitfreesasa_clib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitga.dll">
+            <Link>RDKitga.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitGraphMol.dll">
+            <Link>RDKitGraphMol.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKithc.dll">
+            <Link>RDKithc.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitInchi.dll">
+            <Link>RDKitInchi.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitInfoTheory.dll">
+            <Link>RDKitInfoTheory.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitmaeparser.dll">
+            <Link>RDKitmaeparser.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMMPA.dll">
+            <Link>RDKitMMPA.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolAlign.dll">
+            <Link>RDKitMolAlign.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolCatalog.dll">
+            <Link>RDKitMolCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolChemicalFeatures.dll">
+            <Link>RDKitMolChemicalFeatures.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolDraw2D.dll">
+            <Link>RDKitMolDraw2D.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolEnumerator.dll">
+            <Link>RDKitMolEnumerator.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolHash.dll">
+            <Link>RDKitMolHash.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolInterchange.dll">
+            <Link>RDKitMolInterchange.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolStandardize.dll">
+            <Link>RDKitMolStandardize.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolTransforms.dll">
+            <Link>RDKitMolTransforms.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitO3AAlign.dll">
+            <Link>RDKitO3AAlign.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitOptimizer.dll">
+            <Link>RDKitOptimizer.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitPartialCharges.dll">
+            <Link>RDKitPartialCharges.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRDGeneral.dll">
+            <Link>RDKitRDGeneral.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRDGeometryLib.dll">
+            <Link>RDKitRDGeometryLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRDInchiLib.dll">
+            <Link>RDKitRDInchiLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRDStreams.dll">
+            <Link>RDKitRDStreams.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitReducedGraphs.dll">
+            <Link>RDKitReducedGraphs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRGroupDecomposition.dll">
+            <Link>RDKitRGroupDecomposition.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRingDecomposerLib.dll">
+            <Link>RDKitRingDecomposerLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitScaffoldNetwork.dll">
+            <Link>RDKitScaffoldNetwork.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitShapeHelpers.dll">
+            <Link>RDKitShapeHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSimDivPickers.dll">
+            <Link>RDKitSimDivPickers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSLNParse.dll">
+            <Link>RDKitSLNParse.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSmilesParse.dll">
+            <Link>RDKitSmilesParse.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSubgraphs.dll">
+            <Link>RDKitSubgraphs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSubstructLibrary.dll">
+            <Link>RDKitSubstructLibrary.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSubstructMatch.dll">
+            <Link>RDKitSubstructMatch.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitTautomerQuery.dll">
+            <Link>RDKitTautomerQuery.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitTrajectory.dll">
+            <Link>RDKitTrajectory.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/zlib.dll">
+            <Link>zlib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup Condition="!$(TargetFramework.Contains('netstandard')) And !$(TargetFramework.Contains('netcoreapp')) And !$(TargetFramework.Contains('net5.'))And !$(TargetFramework.Contains('net6.')) And '$(Platform)' == 'x64'">
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_atomic-vc142-mt-x64-1_74.dll">
+            <Link>boost_atomic-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_bzip2-vc142-mt-x64-1_74.dll">
+            <Link>boost_bzip2-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_chrono-vc142-mt-x64-1_74.dll">
+            <Link>boost_chrono-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_container-vc142-mt-x64-1_74.dll">
+            <Link>boost_container-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_context-vc142-mt-x64-1_74.dll">
+            <Link>boost_context-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_contract-vc142-mt-x64-1_74.dll">
+            <Link>boost_contract-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_coroutine-vc142-mt-x64-1_74.dll">
+            <Link>boost_coroutine-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_date_time-vc142-mt-x64-1_74.dll">
+            <Link>boost_date_time-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_fiber-vc142-mt-x64-1_74.dll">
+            <Link>boost_fiber-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_filesystem-vc142-mt-x64-1_74.dll">
+            <Link>boost_filesystem-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_graph-vc142-mt-x64-1_74.dll">
+            <Link>boost_graph-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_iostreams-vc142-mt-x64-1_74.dll">
+            <Link>boost_iostreams-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_locale-vc142-mt-x64-1_74.dll">
+            <Link>boost_locale-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_log-vc142-mt-x64-1_74.dll">
+            <Link>boost_log-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_log_setup-vc142-mt-x64-1_74.dll">
+            <Link>boost_log_setup-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_c99-vc142-mt-x64-1_74.dll">
+            <Link>boost_math_c99-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_c99f-vc142-mt-x64-1_74.dll">
+            <Link>boost_math_c99f-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_c99l-vc142-mt-x64-1_74.dll">
+            <Link>boost_math_c99l-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_tr1-vc142-mt-x64-1_74.dll">
+            <Link>boost_math_tr1-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_tr1f-vc142-mt-x64-1_74.dll">
+            <Link>boost_math_tr1f-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_tr1l-vc142-mt-x64-1_74.dll">
+            <Link>boost_math_tr1l-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_nowide-vc142-mt-x64-1_74.dll">
+            <Link>boost_nowide-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_prg_exec_monitor-vc142-mt-x64-1_74.dll">
+            <Link>boost_prg_exec_monitor-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_program_options-vc142-mt-x64-1_74.dll">
+            <Link>boost_program_options-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_random-vc142-mt-x64-1_74.dll">
+            <Link>boost_random-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_regex-vc142-mt-x64-1_74.dll">
+            <Link>boost_regex-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_serialization-vc142-mt-x64-1_74.dll">
+            <Link>boost_serialization-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_stacktrace_noop-vc142-mt-x64-1_74.dll">
+            <Link>boost_stacktrace_noop-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_stacktrace_windbg-vc142-mt-x64-1_74.dll">
+            <Link>boost_stacktrace_windbg-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_stacktrace_windbg_cached-vc142-mt-x64-1_74.dll">
+            <Link>boost_stacktrace_windbg_cached-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_system-vc142-mt-x64-1_74.dll">
+            <Link>boost_system-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_thread-vc142-mt-x64-1_74.dll">
+            <Link>boost_thread-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_timer-vc142-mt-x64-1_74.dll">
+            <Link>boost_timer-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_type_erasure-vc142-mt-x64-1_74.dll">
+            <Link>boost_type_erasure-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_unit_test_framework-vc142-mt-x64-1_74.dll">
+            <Link>boost_unit_test_framework-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_wave-vc142-mt-x64-1_74.dll">
+            <Link>boost_wave-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_wserialization-vc142-mt-x64-1_74.dll">
+            <Link>boost_wserialization-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_zlib-vc142-mt-x64-1_74.dll">
+            <Link>boost_zlib-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/cairo.dll">
+            <Link>cairo.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/freetype.dll">
+            <Link>freetype.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/gen.py">
+            <Link>gen.py</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/libpng16.dll">
+            <Link>libpng16.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/pixman.dll">
+            <Link>pixman.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKFuncs.dll">
+            <Link>RDKFuncs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitAbbreviations.dll">
+            <Link>RDKitAbbreviations.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitAlignment.dll">
+            <Link>RDKitAlignment.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitAvalonLib.dll">
+            <Link>RDKitAvalonLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitavalon_clib.dll">
+            <Link>RDKitavalon_clib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitCatalogs.dll">
+            <Link>RDKitCatalogs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitChemicalFeatures.dll">
+            <Link>RDKitChemicalFeatures.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitChemReactions.dll">
+            <Link>RDKitChemReactions.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitChemTransforms.dll">
+            <Link>RDKitChemTransforms.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitCIPLabeler.dll">
+            <Link>RDKitCIPLabeler.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitcoordgen.dll">
+            <Link>RDKitcoordgen.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDataStructs.dll">
+            <Link>RDKitDataStructs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDepictor.dll">
+            <Link>RDKitDepictor.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDeprotect.dll">
+            <Link>RDKitDeprotect.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDescriptors.dll">
+            <Link>RDKitDescriptors.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDistGeometry.dll">
+            <Link>RDKitDistGeometry.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDistGeomHelpers.dll">
+            <Link>RDKitDistGeomHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitEigenSolvers.dll">
+            <Link>RDKitEigenSolvers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFileParsers.dll">
+            <Link>RDKitFileParsers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFilterCatalog.dll">
+            <Link>RDKitFilterCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFingerprints.dll">
+            <Link>RDKitFingerprints.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFMCS.dll">
+            <Link>RDKitFMCS.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitForceField.dll">
+            <Link>RDKitForceField.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitForceFieldHelpers.dll">
+            <Link>RDKitForceFieldHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFragCatalog.dll">
+            <Link>RDKitFragCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFreeSASALib.dll">
+            <Link>RDKitFreeSASALib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitfreesasa_clib.dll">
+            <Link>RDKitfreesasa_clib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitga.dll">
+            <Link>RDKitga.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitGraphMol.dll">
+            <Link>RDKitGraphMol.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKithc.dll">
+            <Link>RDKithc.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitInchi.dll">
+            <Link>RDKitInchi.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitInfoTheory.dll">
+            <Link>RDKitInfoTheory.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitmaeparser.dll">
+            <Link>RDKitmaeparser.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMMPA.dll">
+            <Link>RDKitMMPA.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolAlign.dll">
+            <Link>RDKitMolAlign.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolCatalog.dll">
+            <Link>RDKitMolCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolChemicalFeatures.dll">
+            <Link>RDKitMolChemicalFeatures.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolDraw2D.dll">
+            <Link>RDKitMolDraw2D.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolEnumerator.dll">
+            <Link>RDKitMolEnumerator.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolHash.dll">
+            <Link>RDKitMolHash.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolInterchange.dll">
+            <Link>RDKitMolInterchange.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolStandardize.dll">
+            <Link>RDKitMolStandardize.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolTransforms.dll">
+            <Link>RDKitMolTransforms.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitO3AAlign.dll">
+            <Link>RDKitO3AAlign.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitOptimizer.dll">
+            <Link>RDKitOptimizer.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitPartialCharges.dll">
+            <Link>RDKitPartialCharges.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRDGeneral.dll">
+            <Link>RDKitRDGeneral.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRDGeometryLib.dll">
+            <Link>RDKitRDGeometryLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRDInchiLib.dll">
+            <Link>RDKitRDInchiLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRDStreams.dll">
+            <Link>RDKitRDStreams.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitReducedGraphs.dll">
+            <Link>RDKitReducedGraphs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRGroupDecomposition.dll">
+            <Link>RDKitRGroupDecomposition.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRingDecomposerLib.dll">
+            <Link>RDKitRingDecomposerLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitScaffoldNetwork.dll">
+            <Link>RDKitScaffoldNetwork.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitShapeHelpers.dll">
+            <Link>RDKitShapeHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSimDivPickers.dll">
+            <Link>RDKitSimDivPickers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSLNParse.dll">
+            <Link>RDKitSLNParse.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSmilesParse.dll">
+            <Link>RDKitSmilesParse.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSubgraphs.dll">
+            <Link>RDKitSubgraphs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSubstructLibrary.dll">
+            <Link>RDKitSubstructLibrary.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSubstructMatch.dll">
+            <Link>RDKitSubstructMatch.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitTautomerQuery.dll">
+            <Link>RDKitTautomerQuery.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitTrajectory.dll">
+            <Link>RDKitTrajectory.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/zlib.dll">
+            <Link>zlib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup Condition="!$(TargetFramework.Contains('netstandard')) And !$(TargetFramework.Contains('netcoreapp')) And !$(TargetFramework.Contains('net5.'))And !$(TargetFramework.Contains('net6.')) And '$(Platform)' == 'AnyCPU'">
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_atomic-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_atomic-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_bzip2-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_bzip2-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_chrono-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_chrono-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_container-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_container-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_context-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_context-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_contract-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_contract-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_coroutine-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_coroutine-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_date_time-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_date_time-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_fiber-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_fiber-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_filesystem-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_filesystem-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_graph-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_graph-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_iostreams-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_iostreams-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_locale-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_locale-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_log-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_log-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_log_setup-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_log_setup-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_c99-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_math_c99-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_c99f-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_math_c99f-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_c99l-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_math_c99l-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_tr1-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_math_tr1-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_tr1f-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_math_tr1f-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_math_tr1l-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_math_tr1l-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_nowide-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_nowide-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_prg_exec_monitor-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_prg_exec_monitor-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_program_options-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_program_options-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_random-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_random-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_regex-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_regex-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_serialization-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_serialization-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_stacktrace_noop-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_stacktrace_noop-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_stacktrace_windbg-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_stacktrace_windbg-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_stacktrace_windbg_cached-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_stacktrace_windbg_cached-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_system-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_system-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_thread-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_thread-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_timer-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_timer-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_type_erasure-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_type_erasure-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_unit_test_framework-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_unit_test_framework-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_wave-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_wave-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_wserialization-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_wserialization-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/boost_zlib-vc142-mt-x32-1_74.dll">
+            <Link>runtimes/win-x86/native/boost_zlib-vc142-mt-x32-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/cairo.dll">
+            <Link>runtimes/win-x86/native/cairo.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/freetype.dll">
+            <Link>runtimes/win-x86/native/freetype.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/libpng16.dll">
+            <Link>runtimes/win-x86/native/libpng16.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/pixman.dll">
+            <Link>runtimes/win-x86/native/pixman.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKFuncs.dll">
+            <Link>runtimes/win-x86/native/RDKFuncs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitAbbreviations.dll">
+            <Link>runtimes/win-x86/native/RDKitAbbreviations.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitAlignment.dll">
+            <Link>runtimes/win-x86/native/RDKitAlignment.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitAvalonLib.dll">
+            <Link>runtimes/win-x86/native/RDKitAvalonLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitavalon_clib.dll">
+            <Link>runtimes/win-x86/native/RDKitavalon_clib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitCatalogs.dll">
+            <Link>runtimes/win-x86/native/RDKitCatalogs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitChemicalFeatures.dll">
+            <Link>runtimes/win-x86/native/RDKitChemicalFeatures.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitChemReactions.dll">
+            <Link>runtimes/win-x86/native/RDKitChemReactions.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitChemTransforms.dll">
+            <Link>runtimes/win-x86/native/RDKitChemTransforms.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitCIPLabeler.dll">
+            <Link>runtimes/win-x86/native/RDKitCIPLabeler.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitcoordgen.dll">
+            <Link>runtimes/win-x86/native/RDKitcoordgen.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDataStructs.dll">
+            <Link>runtimes/win-x86/native/RDKitDataStructs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDepictor.dll">
+            <Link>runtimes/win-x86/native/RDKitDepictor.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDeprotect.dll">
+            <Link>runtimes/win-x86/native/RDKitDeprotect.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDescriptors.dll">
+            <Link>runtimes/win-x86/native/RDKitDescriptors.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDistGeometry.dll">
+            <Link>runtimes/win-x86/native/RDKitDistGeometry.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitDistGeomHelpers.dll">
+            <Link>runtimes/win-x86/native/RDKitDistGeomHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitEigenSolvers.dll">
+            <Link>runtimes/win-x86/native/RDKitEigenSolvers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFileParsers.dll">
+            <Link>runtimes/win-x86/native/RDKitFileParsers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFilterCatalog.dll">
+            <Link>runtimes/win-x86/native/RDKitFilterCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFingerprints.dll">
+            <Link>runtimes/win-x86/native/RDKitFingerprints.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFMCS.dll">
+            <Link>runtimes/win-x86/native/RDKitFMCS.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitForceField.dll">
+            <Link>runtimes/win-x86/native/RDKitForceField.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitForceFieldHelpers.dll">
+            <Link>runtimes/win-x86/native/RDKitForceFieldHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFragCatalog.dll">
+            <Link>runtimes/win-x86/native/RDKitFragCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitFreeSASALib.dll">
+            <Link>runtimes/win-x86/native/RDKitFreeSASALib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitfreesasa_clib.dll">
+            <Link>runtimes/win-x86/native/RDKitfreesasa_clib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitga.dll">
+            <Link>runtimes/win-x86/native/RDKitga.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitGraphMol.dll">
+            <Link>runtimes/win-x86/native/RDKitGraphMol.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKithc.dll">
+            <Link>runtimes/win-x86/native/RDKithc.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitInchi.dll">
+            <Link>runtimes/win-x86/native/RDKitInchi.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitInfoTheory.dll">
+            <Link>runtimes/win-x86/native/RDKitInfoTheory.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitmaeparser.dll">
+            <Link>runtimes/win-x86/native/RDKitmaeparser.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMMPA.dll">
+            <Link>runtimes/win-x86/native/RDKitMMPA.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolAlign.dll">
+            <Link>runtimes/win-x86/native/RDKitMolAlign.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolCatalog.dll">
+            <Link>runtimes/win-x86/native/RDKitMolCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolChemicalFeatures.dll">
+            <Link>runtimes/win-x86/native/RDKitMolChemicalFeatures.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolDraw2D.dll">
+            <Link>runtimes/win-x86/native/RDKitMolDraw2D.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolEnumerator.dll">
+            <Link>runtimes/win-x86/native/RDKitMolEnumerator.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolHash.dll">
+            <Link>runtimes/win-x86/native/RDKitMolHash.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolInterchange.dll">
+            <Link>runtimes/win-x86/native/RDKitMolInterchange.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolStandardize.dll">
+            <Link>runtimes/win-x86/native/RDKitMolStandardize.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitMolTransforms.dll">
+            <Link>runtimes/win-x86/native/RDKitMolTransforms.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitO3AAlign.dll">
+            <Link>runtimes/win-x86/native/RDKitO3AAlign.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitOptimizer.dll">
+            <Link>runtimes/win-x86/native/RDKitOptimizer.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitPartialCharges.dll">
+            <Link>runtimes/win-x86/native/RDKitPartialCharges.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRDGeneral.dll">
+            <Link>runtimes/win-x86/native/RDKitRDGeneral.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRDGeometryLib.dll">
+            <Link>runtimes/win-x86/native/RDKitRDGeometryLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRDInchiLib.dll">
+            <Link>runtimes/win-x86/native/RDKitRDInchiLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRDStreams.dll">
+            <Link>runtimes/win-x86/native/RDKitRDStreams.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitReducedGraphs.dll">
+            <Link>runtimes/win-x86/native/RDKitReducedGraphs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRGroupDecomposition.dll">
+            <Link>runtimes/win-x86/native/RDKitRGroupDecomposition.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitRingDecomposerLib.dll">
+            <Link>runtimes/win-x86/native/RDKitRingDecomposerLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitScaffoldNetwork.dll">
+            <Link>runtimes/win-x86/native/RDKitScaffoldNetwork.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitShapeHelpers.dll">
+            <Link>runtimes/win-x86/native/RDKitShapeHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSimDivPickers.dll">
+            <Link>runtimes/win-x86/native/RDKitSimDivPickers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSLNParse.dll">
+            <Link>runtimes/win-x86/native/RDKitSLNParse.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSmilesParse.dll">
+            <Link>runtimes/win-x86/native/RDKitSmilesParse.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSubgraphs.dll">
+            <Link>runtimes/win-x86/native/RDKitSubgraphs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSubstructLibrary.dll">
+            <Link>runtimes/win-x86/native/RDKitSubstructLibrary.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitSubstructMatch.dll">
+            <Link>runtimes/win-x86/native/RDKitSubstructMatch.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitTautomerQuery.dll">
+            <Link>runtimes/win-x86/native/RDKitTautomerQuery.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/RDKitTrajectory.dll">
+            <Link>runtimes/win-x86/native/RDKitTrajectory.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x86/native/zlib.dll">
+            <Link>runtimes/win-x86/native/zlib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_atomic-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_atomic-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_bzip2-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_bzip2-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_chrono-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_chrono-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_container-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_container-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_context-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_context-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_contract-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_contract-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_coroutine-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_coroutine-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_date_time-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_date_time-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_fiber-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_fiber-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_filesystem-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_filesystem-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_graph-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_graph-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_iostreams-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_iostreams-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_locale-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_locale-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_log-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_log-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_log_setup-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_log_setup-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_c99-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_math_c99-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_c99f-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_math_c99f-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_c99l-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_math_c99l-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_tr1-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_math_tr1-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_tr1f-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_math_tr1f-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_math_tr1l-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_math_tr1l-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_nowide-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_nowide-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_prg_exec_monitor-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_prg_exec_monitor-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_program_options-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_program_options-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_random-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_random-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_regex-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_regex-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_serialization-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_serialization-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_stacktrace_noop-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_stacktrace_noop-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_stacktrace_windbg-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_stacktrace_windbg-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_stacktrace_windbg_cached-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_stacktrace_windbg_cached-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_system-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_system-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_thread-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_thread-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_timer-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_timer-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_type_erasure-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_type_erasure-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_unit_test_framework-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_unit_test_framework-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_wave-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_wave-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_wserialization-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_wserialization-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/boost_zlib-vc142-mt-x64-1_74.dll">
+            <Link>runtimes/win-x64/native/boost_zlib-vc142-mt-x64-1_74.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/cairo.dll">
+            <Link>runtimes/win-x64/native/cairo.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/freetype.dll">
+            <Link>runtimes/win-x64/native/freetype.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/gen.py">
+            <Link>runtimes/win-x64/native/gen.py</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/libpng16.dll">
+            <Link>runtimes/win-x64/native/libpng16.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/pixman.dll">
+            <Link>runtimes/win-x64/native/pixman.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKFuncs.dll">
+            <Link>runtimes/win-x64/native/RDKFuncs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitAbbreviations.dll">
+            <Link>runtimes/win-x64/native/RDKitAbbreviations.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitAlignment.dll">
+            <Link>runtimes/win-x64/native/RDKitAlignment.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitAvalonLib.dll">
+            <Link>runtimes/win-x64/native/RDKitAvalonLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitavalon_clib.dll">
+            <Link>runtimes/win-x64/native/RDKitavalon_clib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitCatalogs.dll">
+            <Link>runtimes/win-x64/native/RDKitCatalogs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitChemicalFeatures.dll">
+            <Link>runtimes/win-x64/native/RDKitChemicalFeatures.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitChemReactions.dll">
+            <Link>runtimes/win-x64/native/RDKitChemReactions.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitChemTransforms.dll">
+            <Link>runtimes/win-x64/native/RDKitChemTransforms.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitCIPLabeler.dll">
+            <Link>runtimes/win-x64/native/RDKitCIPLabeler.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitcoordgen.dll">
+            <Link>runtimes/win-x64/native/RDKitcoordgen.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDataStructs.dll">
+            <Link>runtimes/win-x64/native/RDKitDataStructs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDepictor.dll">
+            <Link>runtimes/win-x64/native/RDKitDepictor.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDeprotect.dll">
+            <Link>runtimes/win-x64/native/RDKitDeprotect.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDescriptors.dll">
+            <Link>runtimes/win-x64/native/RDKitDescriptors.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDistGeometry.dll">
+            <Link>runtimes/win-x64/native/RDKitDistGeometry.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitDistGeomHelpers.dll">
+            <Link>runtimes/win-x64/native/RDKitDistGeomHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitEigenSolvers.dll">
+            <Link>runtimes/win-x64/native/RDKitEigenSolvers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFileParsers.dll">
+            <Link>runtimes/win-x64/native/RDKitFileParsers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFilterCatalog.dll">
+            <Link>runtimes/win-x64/native/RDKitFilterCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFingerprints.dll">
+            <Link>runtimes/win-x64/native/RDKitFingerprints.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFMCS.dll">
+            <Link>runtimes/win-x64/native/RDKitFMCS.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitForceField.dll">
+            <Link>runtimes/win-x64/native/RDKitForceField.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitForceFieldHelpers.dll">
+            <Link>runtimes/win-x64/native/RDKitForceFieldHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFragCatalog.dll">
+            <Link>runtimes/win-x64/native/RDKitFragCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitFreeSASALib.dll">
+            <Link>runtimes/win-x64/native/RDKitFreeSASALib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitfreesasa_clib.dll">
+            <Link>runtimes/win-x64/native/RDKitfreesasa_clib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitga.dll">
+            <Link>runtimes/win-x64/native/RDKitga.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitGraphMol.dll">
+            <Link>runtimes/win-x64/native/RDKitGraphMol.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKithc.dll">
+            <Link>runtimes/win-x64/native/RDKithc.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitInchi.dll">
+            <Link>runtimes/win-x64/native/RDKitInchi.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitInfoTheory.dll">
+            <Link>runtimes/win-x64/native/RDKitInfoTheory.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitmaeparser.dll">
+            <Link>runtimes/win-x64/native/RDKitmaeparser.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMMPA.dll">
+            <Link>runtimes/win-x64/native/RDKitMMPA.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolAlign.dll">
+            <Link>runtimes/win-x64/native/RDKitMolAlign.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolCatalog.dll">
+            <Link>runtimes/win-x64/native/RDKitMolCatalog.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolChemicalFeatures.dll">
+            <Link>runtimes/win-x64/native/RDKitMolChemicalFeatures.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolDraw2D.dll">
+            <Link>runtimes/win-x64/native/RDKitMolDraw2D.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolEnumerator.dll">
+            <Link>runtimes/win-x64/native/RDKitMolEnumerator.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolHash.dll">
+            <Link>runtimes/win-x64/native/RDKitMolHash.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolInterchange.dll">
+            <Link>runtimes/win-x64/native/RDKitMolInterchange.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolStandardize.dll">
+            <Link>runtimes/win-x64/native/RDKitMolStandardize.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitMolTransforms.dll">
+            <Link>runtimes/win-x64/native/RDKitMolTransforms.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitO3AAlign.dll">
+            <Link>runtimes/win-x64/native/RDKitO3AAlign.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitOptimizer.dll">
+            <Link>runtimes/win-x64/native/RDKitOptimizer.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitPartialCharges.dll">
+            <Link>runtimes/win-x64/native/RDKitPartialCharges.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRDGeneral.dll">
+            <Link>runtimes/win-x64/native/RDKitRDGeneral.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRDGeometryLib.dll">
+            <Link>runtimes/win-x64/native/RDKitRDGeometryLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRDInchiLib.dll">
+            <Link>runtimes/win-x64/native/RDKitRDInchiLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRDStreams.dll">
+            <Link>runtimes/win-x64/native/RDKitRDStreams.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitReducedGraphs.dll">
+            <Link>runtimes/win-x64/native/RDKitReducedGraphs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRGroupDecomposition.dll">
+            <Link>runtimes/win-x64/native/RDKitRGroupDecomposition.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitRingDecomposerLib.dll">
+            <Link>runtimes/win-x64/native/RDKitRingDecomposerLib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitScaffoldNetwork.dll">
+            <Link>runtimes/win-x64/native/RDKitScaffoldNetwork.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitShapeHelpers.dll">
+            <Link>runtimes/win-x64/native/RDKitShapeHelpers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSimDivPickers.dll">
+            <Link>runtimes/win-x64/native/RDKitSimDivPickers.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSLNParse.dll">
+            <Link>runtimes/win-x64/native/RDKitSLNParse.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSmilesParse.dll">
+            <Link>runtimes/win-x64/native/RDKitSmilesParse.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSubgraphs.dll">
+            <Link>runtimes/win-x64/native/RDKitSubgraphs.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSubstructLibrary.dll">
+            <Link>runtimes/win-x64/native/RDKitSubstructLibrary.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitSubstructMatch.dll">
+            <Link>runtimes/win-x64/native/RDKitSubstructMatch.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitTautomerQuery.dll">
+            <Link>runtimes/win-x64/native/RDKitTautomerQuery.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/RDKitTrajectory.dll">
+            <Link>runtimes/win-x64/native/RDKitTrajectory.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../runtimes/win-x64/native/zlib.dll">
+            <Link>runtimes/win-x64/native/zlib.dll</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="$(MSBuildThisFileDirectory)../macos/arm64/RDKFuncs.so">
+            <Link>runtimes/macos-arm64/native/RDKFuncs.so</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+</Project>

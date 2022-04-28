@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <PackageId>RDKit2DotNet</PackageId>
+        <Authors>Kazuya Ujihara</Authors>
+        <Product>RDKit2DotNet</Product>
+        <Company/>
+        <Description>RDKit .NET wrapper</Description>
+        <PackageLicenseFile>license.txt</PackageLicenseFile>
+        <PackageProjectUrl>https://github.com/kazuyaujihara/build-rdkit</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/kazuyaujihara/build-rdkit</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <AssemblyVersion>0.2109.4.2</AssemblyVersion>
+        <FileVersion>0.2109.4.2</FileVersion>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="..\swig_csharp\*.cs"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\..\..\..\license.txt">
+            <Pack>True</Pack>
+            <PackagePath/>
+        </None>
+    </ItemGroup>
+
+    <PropertyGroup>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>rdkit2dotnet.snk</AssemblyOriginatorKeyFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="..\\win\\x86\\cairo.dll" Link="runtimes\\win-x86\\native\\cairo.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\freetype.dll" Link="runtimes\\win-x86\\native\\freetype.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\libpng16.dll" Link="runtimes\\win-x86\\native\\libpng16.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\pixman.dll" Link="runtimes\\win-x86\\native\\pixman.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKFuncs.dll" Link="runtimes\\win-x86\\native\\RDKFuncs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitAbbreviations.dll" Link="runtimes\\win-x86\\native\\RDKitAbbreviations.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitAlignment.dll" Link="runtimes\\win-x86\\native\\RDKitAlignment.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitAvalonLib.dll" Link="runtimes\\win-x86\\native\\RDKitAvalonLib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitavalon_clib.dll" Link="runtimes\\win-x86\\native\\RDKitavalon_clib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitCatalogs.dll" Link="runtimes\\win-x86\\native\\RDKitCatalogs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitChemicalFeatures.dll" Link="runtimes\\win-x86\\native\\RDKitChemicalFeatures.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitChemReactions.dll" Link="runtimes\\win-x86\\native\\RDKitChemReactions.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitChemTransforms.dll" Link="runtimes\\win-x86\\native\\RDKitChemTransforms.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitCIPLabeler.dll" Link="runtimes\\win-x86\\native\\RDKitCIPLabeler.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitcoordgen.dll" Link="runtimes\\win-x86\\native\\RDKitcoordgen.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitDataStructs.dll" Link="runtimes\\win-x86\\native\\RDKitDataStructs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitDepictor.dll" Link="runtimes\\win-x86\\native\\RDKitDepictor.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitDeprotect.dll" Link="runtimes\\win-x86\\native\\RDKitDeprotect.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitDescriptors.dll" Link="runtimes\\win-x86\\native\\RDKitDescriptors.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitDistGeometry.dll" Link="runtimes\\win-x86\\native\\RDKitDistGeometry.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitDistGeomHelpers.dll" Link="runtimes\\win-x86\\native\\RDKitDistGeomHelpers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitEigenSolvers.dll" Link="runtimes\\win-x86\\native\\RDKitEigenSolvers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitFileParsers.dll" Link="runtimes\\win-x86\\native\\RDKitFileParsers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitFilterCatalog.dll" Link="runtimes\\win-x86\\native\\RDKitFilterCatalog.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitFingerprints.dll" Link="runtimes\\win-x86\\native\\RDKitFingerprints.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitFMCS.dll" Link="runtimes\\win-x86\\native\\RDKitFMCS.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitForceField.dll" Link="runtimes\\win-x86\\native\\RDKitForceField.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitForceFieldHelpers.dll" Link="runtimes\\win-x86\\native\\RDKitForceFieldHelpers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitFragCatalog.dll" Link="runtimes\\win-x86\\native\\RDKitFragCatalog.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitFreeSASALib.dll" Link="runtimes\\win-x86\\native\\RDKitFreeSASALib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitfreesasa_clib.dll" Link="runtimes\\win-x86\\native\\RDKitfreesasa_clib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitga.dll" Link="runtimes\\win-x86\\native\\RDKitga.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitGraphMol.dll" Link="runtimes\\win-x86\\native\\RDKitGraphMol.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKithc.dll" Link="runtimes\\win-x86\\native\\RDKithc.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitInchi.dll" Link="runtimes\\win-x86\\native\\RDKitInchi.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitInfoTheory.dll" Link="runtimes\\win-x86\\native\\RDKitInfoTheory.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitmaeparser.dll" Link="runtimes\\win-x86\\native\\RDKitmaeparser.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMMPA.dll" Link="runtimes\\win-x86\\native\\RDKitMMPA.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMolAlign.dll" Link="runtimes\\win-x86\\native\\RDKitMolAlign.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMolCatalog.dll" Link="runtimes\\win-x86\\native\\RDKitMolCatalog.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMolChemicalFeatures.dll" Link="runtimes\\win-x86\\native\\RDKitMolChemicalFeatures.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMolDraw2D.dll" Link="runtimes\\win-x86\\native\\RDKitMolDraw2D.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMolEnumerator.dll" Link="runtimes\\win-x86\\native\\RDKitMolEnumerator.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMolHash.dll" Link="runtimes\\win-x86\\native\\RDKitMolHash.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMolInterchange.dll" Link="runtimes\\win-x86\\native\\RDKitMolInterchange.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMolStandardize.dll" Link="runtimes\\win-x86\\native\\RDKitMolStandardize.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitMolTransforms.dll" Link="runtimes\\win-x86\\native\\RDKitMolTransforms.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitO3AAlign.dll" Link="runtimes\\win-x86\\native\\RDKitO3AAlign.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitOptimizer.dll" Link="runtimes\\win-x86\\native\\RDKitOptimizer.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitPartialCharges.dll" Link="runtimes\\win-x86\\native\\RDKitPartialCharges.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitRDGeneral.dll" Link="runtimes\\win-x86\\native\\RDKitRDGeneral.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitRDGeometryLib.dll" Link="runtimes\\win-x86\\native\\RDKitRDGeometryLib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitRDInchiLib.dll" Link="runtimes\\win-x86\\native\\RDKitRDInchiLib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitRDStreams.dll" Link="runtimes\\win-x86\\native\\RDKitRDStreams.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitReducedGraphs.dll" Link="runtimes\\win-x86\\native\\RDKitReducedGraphs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitRGroupDecomposition.dll" Link="runtimes\\win-x86\\native\\RDKitRGroupDecomposition.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitRingDecomposerLib.dll" Link="runtimes\\win-x86\\native\\RDKitRingDecomposerLib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitScaffoldNetwork.dll" Link="runtimes\\win-x86\\native\\RDKitScaffoldNetwork.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitShapeHelpers.dll" Link="runtimes\\win-x86\\native\\RDKitShapeHelpers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitSimDivPickers.dll" Link="runtimes\\win-x86\\native\\RDKitSimDivPickers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitSLNParse.dll" Link="runtimes\\win-x86\\native\\RDKitSLNParse.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitSmilesParse.dll" Link="runtimes\\win-x86\\native\\RDKitSmilesParse.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitSubgraphs.dll" Link="runtimes\\win-x86\\native\\RDKitSubgraphs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitSubstructLibrary.dll" Link="runtimes\\win-x86\\native\\RDKitSubstructLibrary.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitSubstructMatch.dll" Link="runtimes\\win-x86\\native\\RDKitSubstructMatch.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitTautomerQuery.dll" Link="runtimes\\win-x86\\native\\RDKitTautomerQuery.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\RDKitTrajectory.dll" Link="runtimes\\win-x86\\native\\RDKitTrajectory.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x86\\zlib.dll" Link="runtimes\\win-x86\\native\\zlib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\cairo.dll" Link="runtimes\\win-x64\\native\\cairo.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\freetype.dll" Link="runtimes\\win-x64\\native\\freetype.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\libpng16.dll" Link="runtimes\\win-x64\\native\\libpng16.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\pixman.dll" Link="runtimes\\win-x64\\native\\pixman.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKFuncs.dll" Link="runtimes\\win-x64\\native\\RDKFuncs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitAbbreviations.dll" Link="runtimes\\win-x64\\native\\RDKitAbbreviations.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitAlignment.dll" Link="runtimes\\win-x64\\native\\RDKitAlignment.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitAvalonLib.dll" Link="runtimes\\win-x64\\native\\RDKitAvalonLib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitavalon_clib.dll" Link="runtimes\\win-x64\\native\\RDKitavalon_clib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitCatalogs.dll" Link="runtimes\\win-x64\\native\\RDKitCatalogs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitChemicalFeatures.dll" Link="runtimes\\win-x64\\native\\RDKitChemicalFeatures.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitChemReactions.dll" Link="runtimes\\win-x64\\native\\RDKitChemReactions.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitChemTransforms.dll" Link="runtimes\\win-x64\\native\\RDKitChemTransforms.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitCIPLabeler.dll" Link="runtimes\\win-x64\\native\\RDKitCIPLabeler.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitcoordgen.dll" Link="runtimes\\win-x64\\native\\RDKitcoordgen.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitDataStructs.dll" Link="runtimes\\win-x64\\native\\RDKitDataStructs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitDepictor.dll" Link="runtimes\\win-x64\\native\\RDKitDepictor.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitDeprotect.dll" Link="runtimes\\win-x64\\native\\RDKitDeprotect.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitDescriptors.dll" Link="runtimes\\win-x64\\native\\RDKitDescriptors.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitDistGeometry.dll" Link="runtimes\\win-x64\\native\\RDKitDistGeometry.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitDistGeomHelpers.dll" Link="runtimes\\win-x64\\native\\RDKitDistGeomHelpers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitEigenSolvers.dll" Link="runtimes\\win-x64\\native\\RDKitEigenSolvers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitFileParsers.dll" Link="runtimes\\win-x64\\native\\RDKitFileParsers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitFilterCatalog.dll" Link="runtimes\\win-x64\\native\\RDKitFilterCatalog.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitFingerprints.dll" Link="runtimes\\win-x64\\native\\RDKitFingerprints.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitFMCS.dll" Link="runtimes\\win-x64\\native\\RDKitFMCS.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitForceField.dll" Link="runtimes\\win-x64\\native\\RDKitForceField.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitForceFieldHelpers.dll" Link="runtimes\\win-x64\\native\\RDKitForceFieldHelpers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitFragCatalog.dll" Link="runtimes\\win-x64\\native\\RDKitFragCatalog.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitFreeSASALib.dll" Link="runtimes\\win-x64\\native\\RDKitFreeSASALib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitfreesasa_clib.dll" Link="runtimes\\win-x64\\native\\RDKitfreesasa_clib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitga.dll" Link="runtimes\\win-x64\\native\\RDKitga.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitGraphMol.dll" Link="runtimes\\win-x64\\native\\RDKitGraphMol.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKithc.dll" Link="runtimes\\win-x64\\native\\RDKithc.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitInchi.dll" Link="runtimes\\win-x64\\native\\RDKitInchi.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitInfoTheory.dll" Link="runtimes\\win-x64\\native\\RDKitInfoTheory.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitmaeparser.dll" Link="runtimes\\win-x64\\native\\RDKitmaeparser.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMMPA.dll" Link="runtimes\\win-x64\\native\\RDKitMMPA.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMolAlign.dll" Link="runtimes\\win-x64\\native\\RDKitMolAlign.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMolCatalog.dll" Link="runtimes\\win-x64\\native\\RDKitMolCatalog.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMolChemicalFeatures.dll" Link="runtimes\\win-x64\\native\\RDKitMolChemicalFeatures.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMolDraw2D.dll" Link="runtimes\\win-x64\\native\\RDKitMolDraw2D.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMolEnumerator.dll" Link="runtimes\\win-x64\\native\\RDKitMolEnumerator.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMolHash.dll" Link="runtimes\\win-x64\\native\\RDKitMolHash.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMolInterchange.dll" Link="runtimes\\win-x64\\native\\RDKitMolInterchange.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMolStandardize.dll" Link="runtimes\\win-x64\\native\\RDKitMolStandardize.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitMolTransforms.dll" Link="runtimes\\win-x64\\native\\RDKitMolTransforms.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitO3AAlign.dll" Link="runtimes\\win-x64\\native\\RDKitO3AAlign.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitOptimizer.dll" Link="runtimes\\win-x64\\native\\RDKitOptimizer.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitPartialCharges.dll" Link="runtimes\\win-x64\\native\\RDKitPartialCharges.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitRDGeneral.dll" Link="runtimes\\win-x64\\native\\RDKitRDGeneral.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitRDGeometryLib.dll" Link="runtimes\\win-x64\\native\\RDKitRDGeometryLib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitRDInchiLib.dll" Link="runtimes\\win-x64\\native\\RDKitRDInchiLib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitRDStreams.dll" Link="runtimes\\win-x64\\native\\RDKitRDStreams.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitReducedGraphs.dll" Link="runtimes\\win-x64\\native\\RDKitReducedGraphs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitRGroupDecomposition.dll" Link="runtimes\\win-x64\\native\\RDKitRGroupDecomposition.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitRingDecomposerLib.dll" Link="runtimes\\win-x64\\native\\RDKitRingDecomposerLib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitScaffoldNetwork.dll" Link="runtimes\\win-x64\\native\\RDKitScaffoldNetwork.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitShapeHelpers.dll" Link="runtimes\\win-x64\\native\\RDKitShapeHelpers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitSimDivPickers.dll" Link="runtimes\\win-x64\\native\\RDKitSimDivPickers.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitSLNParse.dll" Link="runtimes\\win-x64\\native\\RDKitSLNParse.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitSmilesParse.dll" Link="runtimes\\win-x64\\native\\RDKitSmilesParse.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitSubgraphs.dll" Link="runtimes\\win-x64\\native\\RDKitSubgraphs.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitSubstructLibrary.dll" Link="runtimes\\win-x64\\native\\RDKitSubstructLibrary.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitSubstructMatch.dll" Link="runtimes\\win-x64\\native\\RDKitSubstructMatch.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitTautomerQuery.dll" Link="runtimes\\win-x64\\native\\RDKitTautomerQuery.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\RDKitTrajectory.dll" Link="runtimes\\win-x64\\native\\RDKitTrajectory.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="..\\win\\x64\\zlib.dll" Link="runtimes\\win-x64\\native\\zlib.dll">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+</Project>
