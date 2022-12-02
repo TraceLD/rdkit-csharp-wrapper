@@ -1,4 +1,4 @@
-# TraceLD.RDKit.CSharp
+# rdkit-csharp-wrapper
 [![nuget](https://img.shields.io/nuget/v/TraceLD.RDKit.Csharp?style=for-the-badge)](https://www.nuget.org/packages/TraceLD.RDKit.CSharp/)
 [![dotnet](https://img.shields.io/badge/targets-net6.0-blueviolet?style=for-the-badge)](https://dotnet.microsoft.com/en-us/)
 
