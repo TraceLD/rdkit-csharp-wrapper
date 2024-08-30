@@ -17,7 +17,7 @@ See the [examples folder](https://github.com/TraceLD/TraceLD.RDKit.CSharp/tree/m
 
 ### Windows
 
-- Supports Windows 10 x86 and x64 and Windows 11 x64.
+- Supports Windows 10 x64 and Windows 11 x64.
 - Tested on Win 10 and Win 11 21H2 (OS Build 22000.613).
 
 ### Linux
